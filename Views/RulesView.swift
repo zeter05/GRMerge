@@ -1,4 +1,3 @@
-// Views/RulesView.swift
 import SwiftUI
 
 struct RulesView: View {
@@ -10,7 +9,6 @@ struct RulesView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
 
-            // MARK: Preset
             Menu("Carica preset...") {
                 ForEach(RulePreset.defaults, id: \.name) { preset in
                     Button(preset.name) {
@@ -24,7 +22,6 @@ struct RulesView: View {
 
             Divider()
 
-            // MARK: Regole esclusione
             RuleSectionHeader(
                 title: "Escludi",
                 systemImage: "xmark.circle",
@@ -50,7 +47,6 @@ struct RulesView: View {
 
             Divider()
 
-            // MARK: Regole normalizzazione
             RuleSectionHeader(
                 title: "Normalizza",
                 systemImage: "wand.and.stars",
@@ -105,7 +101,6 @@ struct RulesView: View {
     }
 }
 
-// MARK: - Componenti UI
 
 struct RuleSectionHeader: View {
     let title: String

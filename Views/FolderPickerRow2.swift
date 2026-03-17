@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct FolderPickerRow: View {
+struct FolderPickerRow2: View {
     let label: String
     let url: URL?
     let color: Color

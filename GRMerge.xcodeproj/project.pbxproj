@@ -6,17 +6,52 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		4E502DDE2F69F6E5000E4332 /* GRMerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRMerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		4E502DF82F69FA07000E4332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E502DF42F69FA07000E4332 /* Assets.xcassets */; };
+		4E502DFA2F69FA07000E4332 /* GRMergeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502DF62F69FA07000E4332 /* GRMergeApp.swift */; };
+		4E502E0D2F69FE7E000E4332 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E062F69FBCF000E4332 /* ContentView.swift */; };
+		4E502E0E2F69FEC8000E4332 /* FolderPickerRow2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E082F69FC1F000E4332 /* FolderPickerRow2.swift */; };
+		4E502E0F2F69FEC8000E4332 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E0B2F69FC6D000E4332 /* ResultsView.swift */; };
+		4E502E102F69FEC8000E4332 /* LegendRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E0A2F69FC59000E4332 /* LegendRow.swift */; };
+		4E502E112F69FEC8000E4332 /* FileRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E0C2F69FC88000E4332 /* FileRowView.swift */; };
+		4E502E122F69FEC8000E4332 /* LegendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E092F69FC48000E4332 /* LegendView.swift */; };
+		4E502E132F69FEC8000E4332 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E072F69FBEF000E4332 /* SidebarView.swift */; };
+		4E502E142F69FECE000E4332 /* CompareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E052F69FB89000E4332 /* CompareViewModel.swift */; };
+		4E502E152F69FED5000E4332 /* CompareStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E042F69FB5F000E4332 /* CompareStatus.swift */; };
+		4E502E162F69FED5000E4332 /* FileNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E032F69FB01000E4332 /* FileNode.swift */; };
+		4E502E192F6A0109000E4332 /* FileComparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E182F69FFE4000E4332 /* FileComparator.swift */; };
+		4E502E1A2F6A0109000E4332 /* FileScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E172F69FFCF000E4332 /* FileScanner.swift */; };
+		4E502E1C2F6A0458000E4332 /* CompareRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E1B2F6A0455000E4332 /* CompareRule.swift */; };
+		4E502E1E2F6A04AA000E4332 /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E1D2F6A04A6000E4332 /* RulesView.swift */; };
+		4E502E202F6A06C4000E4332 /* ScanProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E1F2F6A06C1000E4332 /* ScanProgress.swift */; };
+		4E502E222F6A06EA000E4332 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E212F6A06E7000E4332 /* ProgressView.swift */; };
+		4E502E242F6A095D000E4332 /* ResultFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E232F6A0953000E4332 /* ResultFooterView.swift */; };
+		4E502E262F6A0F28000E4332 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4E502E252F6A0F22000E4332 /* README.md */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		4E502DE02F69F6E5000E4332 /* GRMerge */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GRMerge;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		4E502DDE2F69F6E5000E4332 /* GRMerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = GRMerge.app; path = /Users/retez/Dev/Projects/xcode/GRMerge/build/Debug/GRMerge.app; sourceTree = "<absolute>"; };
+		4E502DF42F69FA07000E4332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E502DF62F69FA07000E4332 /* GRMergeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRMergeApp.swift; sourceTree = "<group>"; };
+		4E502E032F69FB01000E4332 /* FileNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileNode.swift; sourceTree = "<group>"; };
+		4E502E042F69FB5F000E4332 /* CompareStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareStatus.swift; sourceTree = "<group>"; };
+		4E502E052F69FB89000E4332 /* CompareViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareViewModel.swift; sourceTree = "<group>"; };
+		4E502E062F69FBCF000E4332 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4E502E072F69FBEF000E4332 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		4E502E082F69FC1F000E4332 /* FolderPickerRow2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderPickerRow2.swift; sourceTree = "<group>"; };
+		4E502E092F69FC48000E4332 /* LegendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendView.swift; sourceTree = "<group>"; };
+		4E502E0A2F69FC59000E4332 /* LegendRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendRow.swift; sourceTree = "<group>"; };
+		4E502E0B2F69FC6D000E4332 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		4E502E0C2F69FC88000E4332 /* FileRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileRowView.swift; sourceTree = "<group>"; };
+		4E502E172F69FFCF000E4332 /* FileScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileScanner.swift; sourceTree = "<group>"; };
+		4E502E182F69FFE4000E4332 /* FileComparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileComparator.swift; sourceTree = "<group>"; };
+		4E502E1B2F6A0455000E4332 /* CompareRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareRule.swift; sourceTree = "<group>"; };
+		4E502E1D2F6A04A6000E4332 /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
+		4E502E1F2F6A06C1000E4332 /* ScanProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanProgress.swift; sourceTree = "<group>"; };
+		4E502E212F6A06E7000E4332 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		4E502E232F6A0953000E4332 /* ResultFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultFooterView.swift; sourceTree = "<group>"; };
+		4E502E252F6A0F22000E4332 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4E502DDB2F69F6E5000E4332 /* Frameworks */ = {
@@ -32,17 +67,59 @@
 		4E502DD52F69F6E5000E4332 = {
 			isa = PBXGroup;
 			children = (
-				4E502DE02F69F6E5000E4332 /* GRMerge */,
-				4E502DDF2F69F6E5000E4332 /* Products */,
+				4E502E252F6A0F22000E4332 /* README.md */,
+				4E502DF62F69FA07000E4332 /* GRMergeApp.swift */,
+				4E502DF42F69FA07000E4332 /* Assets.xcassets */,
+				4E502E012F69FAC0000E4332 /* Services */,
+				4E502E022F69FAC8000E4332 /* Views */,
+				4E502E002F69FAB3000E4332 /* ViewModels */,
+				4E502DFF2F69FAA5000E4332 /* Models */,
 			);
 			sourceTree = "<group>";
 		};
-		4E502DDF2F69F6E5000E4332 /* Products */ = {
+		4E502DFF2F69FAA5000E4332 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4E502DDE2F69F6E5000E4332 /* GRMerge.app */,
+				4E502E1F2F6A06C1000E4332 /* ScanProgress.swift */,
+				4E502E1B2F6A0455000E4332 /* CompareRule.swift */,
+				4E502E042F69FB5F000E4332 /* CompareStatus.swift */,
+				4E502E032F69FB01000E4332 /* FileNode.swift */,
 			);
-			name = Products;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4E502E002F69FAB3000E4332 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4E502E052F69FB89000E4332 /* CompareViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4E502E012F69FAC0000E4332 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4E502E182F69FFE4000E4332 /* FileComparator.swift */,
+				4E502E172F69FFCF000E4332 /* FileScanner.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4E502E022F69FAC8000E4332 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E502E232F6A0953000E4332 /* ResultFooterView.swift */,
+				4E502E212F6A06E7000E4332 /* ProgressView.swift */,
+				4E502E1D2F6A04A6000E4332 /* RulesView.swift */,
+				4E502E0C2F69FC88000E4332 /* FileRowView.swift */,
+				4E502E0B2F69FC6D000E4332 /* ResultsView.swift */,
+				4E502E0A2F69FC59000E4332 /* LegendRow.swift */,
+				4E502E092F69FC48000E4332 /* LegendView.swift */,
+				4E502E082F69FC1F000E4332 /* FolderPickerRow2.swift */,
+				4E502E072F69FBEF000E4332 /* SidebarView.swift */,
+				4E502E062F69FBCF000E4332 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +136,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				4E502DE02F69F6E5000E4332 /* GRMerge */,
 			);
 			name = GRMerge;
 			packageProductDependencies = (
@@ -95,7 +169,7 @@
 			mainGroup = 4E502DD52F69F6E5000E4332;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 4E502DDF2F69F6E5000E4332 /* Products */;
+			productRefGroup = 4E502DD52F69F6E5000E4332;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -109,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E502DF82F69FA07000E4332 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +194,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E502E152F69FED5000E4332 /* CompareStatus.swift in Sources */,
+				4E502E162F69FED5000E4332 /* FileNode.swift in Sources */,
+				4E502E202F6A06C4000E4332 /* ScanProgress.swift in Sources */,
+				4E502E0D2F69FE7E000E4332 /* ContentView.swift in Sources */,
+				4E502DFA2F69FA07000E4332 /* GRMergeApp.swift in Sources */,
+				4E502E0E2F69FEC8000E4332 /* FolderPickerRow2.swift in Sources */,
+				4E502E222F6A06EA000E4332 /* ProgressView.swift in Sources */,
+				4E502E192F6A0109000E4332 /* FileComparator.swift in Sources */,
+				4E502E242F6A095D000E4332 /* ResultFooterView.swift in Sources */,
+				4E502E1A2F6A0109000E4332 /* FileScanner.swift in Sources */,
+				4E502E0F2F69FEC8000E4332 /* ResultsView.swift in Sources */,
+				4E502E142F69FECE000E4332 /* CompareViewModel.swift in Sources */,
+				4E502E1E2F6A04AA000E4332 /* RulesView.swift in Sources */,
+				4E502E262F6A0F28000E4332 /* README.md in Sources */,
+				4E502E102F69FEC8000E4332 /* LegendRow.swift in Sources */,
+				4E502E112F69FEC8000E4332 /* FileRowView.swift in Sources */,
+				4E502E122F69FEC8000E4332 /* LegendView.swift in Sources */,
+				4E502E132F69FEC8000E4332 /* SidebarView.swift in Sources */,
+				4E502E1C2F6A0458000E4332 /* CompareRule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
